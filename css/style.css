@@ -1,0 +1,22 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+#leftlist {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+#rightlist {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+#list-bg {
+    position: relative;
+}
