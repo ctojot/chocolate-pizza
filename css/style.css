@@ -1,22 +1,27 @@
 .container {
     position: relative;
-    text-align: center;
+    background-image: url(img/list-bg.png);
+    /* text-align: center;
     color: white;
-    overflow: hidden;
+    overflow: hidden; */
 }
 
-#leftlist {
+.leftlist {
     position: absolute;
     top: 8px;
     left: 16px;
 }
 
-#rightlist {
+.rightlist {
     position: absolute;
     top: 8px;
     right: 16px;
 }
 
 #list-bg {
-    position: relative;
+    
+}
+
+.textcontainer {
+    position: absolute;
 }
